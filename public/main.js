@@ -8,6 +8,7 @@ const btn_blog = document.querySelector(".btn_blog");
 
 
 btn_home.addEventListener('click', ()=> {
+    // remove
     about.classList.remove('clicked');
     setTimeout(function() {
         home.classList.add('clicked');
@@ -18,17 +19,24 @@ btn_home.addEventListener('click', ()=> {
 })
 
 btn_about.addEventListener('click', ()=> {
+    // remove
     home.classList.remove('clicked');
     home_imgs.classList.remove('clicked');
     setTimeout(function() {
         about.classList.add('clicked');
     }, 200);
 })
+
 btn_portfolio.addEventListener('click', ()=> {
+    // remove
     home.classList.remove('clicked');
     home_imgs.classList.remove('clicked');
+    about.classList.remove('clicked');
 })
+
 btn_blog.addEventListener('click', ()=> {
+    // remove
     home.classList.remove('clicked');
     home_imgs.classList.remove('clicked');
+    about.classList.remove('clicked');
 })
