@@ -1,0 +1,127 @@
+main {
+    width: 724px;
+    height: 368px;
+
+    position: absolute;
+    left: 12%;
+    top: 286px;
+    display: flex;
+}
+.logo {
+    position: relative;
+    width: 372.907px;
+    height: 372.907px;
+    border-radius: 368px;
+    border: 2px solid #F24B4B;
+
+    background: url(img/logo.png), lightgray 50% / cover no-repeat;
+}
+.txt {
+    position: relative;
+    top: 45px;
+    left: 350px;
+}
+.txt h1, h4 {
+    color: #F2F0D8;
+    font-family: Hahmlet;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.txt h2 {
+    position: relative;
+    color: #F2F0D8;
+    font-family: Hahmlet;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    left: 15px;
+    margin: -6px;
+}
+.txt h3 {
+    position: relative;
+    color: #F24B4B;
+    font-family: Hahmlet;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    left: 30px;
+}
+.txt h4 {
+    position: relative;
+    left: 45px;
+}
+aside {
+    position: relative;
+    width: 692px;
+    height: 599.9px;
+
+    margin-left: auto;
+    top: 121px;
+    right: 7.7%;
+}
+aside svg {
+    position: absolute;
+}
+.flag {
+    position: absolute;
+    top: 306px;
+    right: 621px;
+}
+.main_buttons {
+    position: relative;
+    display: flex;
+    width: 228px;
+    height: 40px;
+
+    left: 49px;
+    top: 184px;
+}
+.main_buttons button {
+    width: 40px;
+    height: 40px;
+
+    background: none;
+    border-radius: 40px;
+    border: 1px solid #F24B4B;
+
+    margin-right: 17px;
+
+    cursor: pointer;
+}
+.join {
+    width: 211px;
+    height: 58px;
+
+    border-radius: 52px;
+    border: 1px solid #F24B4B;
+
+    position: absolute;
+    top: 250px;
+    right: 89px;
+
+    background: none;
+
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.join h1 {
+    color: #F24B4B;
+    font-family: Hahmlet;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.2px;
+
+    text-decoration: none;
+
+    position: relative;
+    top: -2px;
+}
