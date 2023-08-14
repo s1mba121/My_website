@@ -8,9 +8,10 @@
     background: #312F2C;
 
     left: 14%;
-    top: 76px;
+    top: -536px;
 
-    transform: translateY(1000px);
+    transition: transform .7s ease;
+    transform: translateY(-2000px);
 }
 .about.clicked {
     width: 1482px;
@@ -22,8 +23,9 @@
     background: #312F2C;
 
     left: 14%;
-    top: 76px;
-
+    top: -536px;
+    
+    transition: transform .4s ease;
     transform: translateY(0);
 }
 .about_txt {
