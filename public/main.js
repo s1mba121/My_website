@@ -9,14 +9,20 @@ const btn_blog = document.querySelector(".btn_blog");
 
 btn_home.addEventListener('click', ()=> {
     about.classList.remove('clicked');
-    home.classList.add('clicked');
-    home_imgs.classList.add('clicked');
+    setTimeout(function() {
+        home.classList.add('clicked');
+        home_imgs.classList.add('clicked');
+      }, 200);
+    
+    
 })
 
 btn_about.addEventListener('click', ()=> {
     home.classList.remove('clicked');
     home_imgs.classList.remove('clicked');
-    about.classList.add('clicked');
+    setTimeout(function() {
+        about.classList.add('clicked');
+    }, 200);
 })
 btn_portfolio.addEventListener('click', ()=> {
     home.classList.remove('clicked');
