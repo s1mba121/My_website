@@ -1,0 +1,126 @@
+.about {
+    width: 1482px;
+    height: 664px;
+
+    position: relative;
+
+    border-radius: 20px;
+    background: #312F2C;
+
+    left: 14%;
+    top: 76px;
+
+    transform: translateY(1000px);
+}
+.about.clicked {
+    width: 1482px;
+    height: 664px;
+
+    position: relative;
+
+    border-radius: 20px;
+    background: #312F2C;
+
+    left: 14%;
+    top: 76px;
+
+    transform: translateY(0);
+}
+.about_txt {
+    position: relative;
+
+    width: 531px;
+    height: 29px;
+
+    top: 28px;
+    left: 46px;
+}
+.about_txt h1 {
+    color: #F24B4B;
+    font-family: Hahmlet;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.2px;
+}
+.line {
+    width: 395px;
+    height: 1px;
+
+    background: #F24B4B;
+
+    position: relative;
+    top: -11.8px;
+    left: 136px;
+}
+.about_logo {
+    position: relative;
+    width: 267.52px;
+    height: 267.52px;
+    border-radius: 280px;
+    border: 2px solid #F24B4B;
+
+    background: url(img/logo.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+
+    top: 65px;
+    left: 86.48px;
+}
+.about_me_txt_ru {
+    position: relative;
+    color: #F2F0D8;
+    font-family: Hahmlet;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.72px;
+
+    color: #F2F0D8;
+
+    top: -220px;
+    left: 405px;
+}
+.about_txt_2 {
+    position: relative;
+
+    top: -196px;
+    left: 917px;
+}
+.about_txt_2 h1{
+    color: #F24B4B;
+    font-family: Hahmlet;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.2px;
+}
+.line_2 {
+    position: relative;
+    left: 1px;
+    top: -5px;
+
+    width: 502.015px;
+    height: 1px;
+
+    background: #F24B4B;
+}
+.about_skills {
+    position: relative;
+    display: flex;
+
+    top: -164px;
+    left: 919px;
+}
+.about_skills div {
+    padding: 0 10px;
+
+    transition: all .3s ease; 
+}
+.about_skills div:hover {
+    cursor: pointer;
+
+    scale: 1.3;
+}
