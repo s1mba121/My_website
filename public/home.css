@@ -1,4 +1,4 @@
-main {
+.home.clicked {
     width: 724px;
     height: 368px;
 
@@ -6,6 +6,19 @@ main {
     left: 12%;
     top: 286px;
     display: flex;
+
+    transform: translateX(0);
+}
+.home {
+    width: 724px;
+    height: 368px;
+
+    position: absolute;
+    top: 286px;
+    display: flex;
+
+    transform: translateX(-1000px);  
+    transition: transform .4s ease;
 }
 .logo {
     position: relative;
@@ -56,7 +69,7 @@ main {
     position: relative;
     left: 45px;
 }
-aside {
+.home_imgs.clicked {
     position: relative;
     width: 692px;
     height: 599.9px;
@@ -64,6 +77,20 @@ aside {
     margin-left: auto;
     top: 121px;
     right: 7.7%;
+
+    transform: translateX(0px);
+}
+.home_imgs {
+    position: relative;
+    width: 692px;
+    height: 599.9px;
+
+    margin-left: auto;
+    top: 121px;
+    right: 7.7%;
+
+    transform: translateX(1400px);
+    transition: transform .4s ease;
 }
 aside svg {
     position: absolute;

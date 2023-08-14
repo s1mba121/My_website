@@ -13,7 +13,7 @@ header {
     display: flex;
     list-style: none;
 }
-.nav_bar ul li a{
+.nav_bar ul li button{
     text-decoration: none;
     display: block;
     font-family: 'Inter', sans-serif;
@@ -22,18 +22,22 @@ header {
     padding: 10px 20px;
     margin: 0 13px;
     transition: .2s;
+
+    background: none;
+    border: none;
+    cursor: pointer;
 }
-.nav_bar ul li a::after{
+.nav_bar ul li button::after{
     display: block;
     content: "";
     border-bottom: 2px solid #F24B4B;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
-.nav_bar ul li a:hover::after{
+.nav_bar ul li button:hover::after{
     transform: scaleX(1);
 }
-.nav_bar ul li a.active{
+.nav_bar ul li button.active{
     color: #19376D;
 }
 .contrast {
@@ -55,7 +59,6 @@ header {
     .hamburger {
         display: block;
         cursor: pointer;
-        margin-left: auto;
     }
     .hamburger .line {
         width: 30px;
@@ -87,7 +90,7 @@ header {
     .nav_bar.active ul {
         opacity: 1;
     }
-    .nav_bar ul li a {
+    .nav_bar ul li button {
         margin-bottom: 12px;
     }
 }
