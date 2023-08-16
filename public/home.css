@@ -89,7 +89,7 @@
     top: 121px;
     right: 7.7%;
 
-    transform: translateX(1400px);
+    transform: translateX(2000px);
     transition: transform .4s ease;
 }
 aside svg {
