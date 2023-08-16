@@ -1,0 +1,43 @@
+.blog.clicked {
+    position: absolute;
+    width: 1530px;
+    height: 458px;
+    top: 147px;
+    left: 283px;
+
+    opacity: 1;
+    transition: opacity .4s ease;
+}
+.blog {
+    position: absolute;
+    width: 1530px;
+    height: 458px;
+    top: 147px;
+    left: 283px;
+
+    opacity: 0;
+    transition: opacity .4s ease;
+}
+.blog h1 {
+    color: rgba(242, 240, 216, 0.09);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 77.5px;  
+
+    position: relative;
+    left: 361px;
+}
+.blog h2 {
+    color: rgba(242, 240, 216, 0.09);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 39.68px;
+}

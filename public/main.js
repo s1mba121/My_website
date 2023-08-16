@@ -1,6 +1,7 @@
 const home = document.querySelector(".home");
 const about = document.querySelector(".about");
 const portfolio = document.querySelector(".portfolio");
+const blog = document.querySelector(".blog");
 const home_imgs = document.querySelector(".home_imgs");
 const btn_home = document.querySelector(".btn_home");
 const btn_about = document.querySelector(".btn_about");
@@ -13,12 +14,15 @@ function sleep(ms) {
 
 btn_home.addEventListener('click', async ()=> {
     // remove
+    blog.classList.remove('clicked');
     portfolio.classList.remove('clicked');
     about.classList.remove('clicked');
 
     await sleep(100);
 
     portfolio.style.top = '-2045px';
+    blog.style.top = '-1000px';
+    
     setTimeout(function() {
         home.classList.add('clicked');
         home_imgs.classList.add('clicked');
@@ -29,6 +33,7 @@ btn_home.addEventListener('click', async ()=> {
 
 btn_about.addEventListener('click', async ()=> {
     // remove
+    blog.classList.remove('clicked');
     portfolio.classList.remove('clicked');
     home.classList.remove('clicked');
     home_imgs.classList.remove('clicked');
@@ -36,6 +41,7 @@ btn_about.addEventListener('click', async ()=> {
     await sleep(100);
 
     portfolio.style.top = '-2045px';
+    blog.style.top = '-1000px';
 
     setTimeout(function() {
         about.classList.add('clicked');
@@ -44,11 +50,13 @@ btn_about.addEventListener('click', async ()=> {
 
 btn_portfolio.addEventListener('click', ()=> {
     // remove
+    blog.classList.remove('clicked');
     home.classList.remove('clicked');
     home_imgs.classList.remove('clicked');
     about.classList.remove('clicked');
 
     portfolio.style.top = '-1200px';
+    blog.style.top = '-1000px';
     setTimeout(function() {
         portfolio.classList.add('clicked');
     }, 200)
@@ -64,6 +72,11 @@ btn_blog.addEventListener('click', async () => {
     await sleep(100); // Задержка на 2 секунды
 
     portfolio.style.top = '-2045px';
+    blog.style.top = '147px';
+
+    setTimeout(function() {
+        blog.classList.add('clicked');
+    })
 });
 
 function sleep(ms) {
