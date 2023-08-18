@@ -1,0 +1,89 @@
+@media screen and (max-width: 320px) {
+    /* Стили для очень узких устройств */
+    .home_imgs.clicked {
+      display: none;
+    }
+    .home_imgs {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Стили для маленьких смартфонов и планшетов */
+    .home_imgs.clicked {
+      display: none;
+    }
+    .home_imgs {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Стили для средних планшетов и некоторых смартфонов */
+    .home_imgs.clicked {
+      display: none;
+    }
+    .home_imgs {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .home_imgs.clicked {
+      display: none;
+    }
+    .home_imgs {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    /* Стили для планшетов и некоторых небольших ноутбуков */
+    .nav_bar ul li button {
+        font-size: 20px;
+    }
+    .home_imgs.clicked  {
+        margin-left: 1250px;
+    }
+    .portfolio.clicked {
+        left: 920px;
+    }
+  }
+  
+  @media screen and (max-width: 1280px) {
+    /* Стили для большинства современных ноутбуков и некоторых планшетов */
+    .nav_bar ul li button {
+        font-size: 20px;
+    }
+    .home_imgs.clicked  {
+        margin-left: 1220px;
+    }
+    .portfolio.clicked {
+        left: 920px;
+    }
+  }
+  
+  @media screen and (min-width: 1281px) and (max-width: 1440px) {
+    /* Стили для ноутбуков и мониторов среднего размера */
+    .nav_bar ul li button {
+        font-size: 20px;
+    }
+    .home_imgs.clicked  {
+        margin-left: 1230px;
+    }
+    .portfolio.clicked {
+        left: 930px;
+    }
+  }
+  
+  @media screen and (min-width: 1441px) and (max-width: 1920px) {
+    /* Стили для больших ноутбуков и мониторов */
+    .nav_bar ul li button {
+        font-size: 20px;
+    }
+    .home_imgs.clicked  {
+        margin-left: 1250px;
+    }
+    .portfolio.clicked {
+        left: 950px;
+    }
+  }
