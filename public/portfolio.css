@@ -3,8 +3,8 @@
     width: 1505px;
     height: 685px;
 
-    top: -1200px;
-    left: 50%;
+    top: -5000px;
+    left: 950px;
     transform: translateX(-50%);
     opacity: 1;
     transition: opacity .4s ease;
@@ -14,8 +14,8 @@
     width: 1505px;
     height: 685px;
 
-    top: -1200px;
-    left: 50%;
+    top: -5000px;
+    left: 950px;
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity .4s ease;

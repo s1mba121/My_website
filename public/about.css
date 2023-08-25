@@ -46,7 +46,7 @@
     line-height: normal;
     letter-spacing: 6.2px;
 }
-.line {
+.line_1 {
     width: 395px;
     height: 1px;
 
@@ -69,7 +69,22 @@
     top: 65px;
     left: 86.48px;
 }
-.about_me_txt_ru {
+.about_me_txt_en {
+    position: relative;
+    color: #F2F0D8;
+    font-family: Hahmlet;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.72px;
+
+    color: #F2F0D8;
+
+    top: -220px;
+    left: 405px;
+}
+.about_me_txt_en_mobile {
     position: relative;
     color: #F2F0D8;
     font-family: Hahmlet;

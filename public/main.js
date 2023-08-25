@@ -20,7 +20,7 @@ btn_home.addEventListener('click', async ()=> {
 
     await sleep(100);
 
-    portfolio.style.top = '-2045px';
+    portfolio.style.top = '-5000px';
     blog.style.top = '-1000px';
     
     setTimeout(function() {
@@ -40,7 +40,7 @@ btn_about.addEventListener('click', async ()=> {
 
     await sleep(100);
 
-    portfolio.style.top = '-2045px';
+    portfolio.style.top = '-5000px';
     blog.style.top = '-1000px';
 
     setTimeout(function() {
@@ -71,7 +71,7 @@ btn_blog.addEventListener('click', async () => {
 
     await sleep(100); // Задержка на 2 секунды
 
-    portfolio.style.top = '-2045px';
+    portfolio.style.top = '-5000px';
     blog.style.top = '147px';
 
     setTimeout(function() {

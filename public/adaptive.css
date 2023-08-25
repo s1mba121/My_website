@@ -1,42 +1,468 @@
 @media screen and (max-width: 320px) {
     /* Стили для очень узких устройств */
+
+    /* home */
     .home_imgs.clicked {
       display: none;
     }
     .home_imgs {
       display: none;
     }
+    .logo {
+      width: 255px;
+      height: 255px;
+
+      top: -200px;
+
+      background-size: cover;
+    }
+    .txt {
+      position: relative;
+      top: 292px;
+      left: -45px;
+    }
+    .main_buttons {
+      left: -214px;
+      top: 300px;
+    }
+    .join {
+      right: auto;
+      top: 368px;
+      left: 40px;
+    }
+    .hamburger .line {
+      left: -30px;
+    }
+    /* about */
+    .about.clicked {
+      background: none;
+
+      top: -111px;
+      left: 98px;
+    }
+    .about {
+      background: none;
+
+      top: -111px;
+      left: 98px;
+    }
+    .about_logo {
+      width: 115px;
+      height: 115px;
+
+      left: 46px;
+    }
+    .about_txt {
+      top: 205px;
+      left: -40px;
+    }
+    .about_txt h1 {
+      position: relative;
+      font-size: 14px;
+      left: -40px;
+    }
+    .line_1 {
+      top: -7.8px;
+      left: 70px;
+      width: 143px;
+    }
+    .about_me_txt_en {
+      display: none;
+    }
+    .about_me_txt_en_mobile {
+      top: 81px;
+      left: -79px;
+
+      font-size: 10px;
+    }
+    .about_txt_2 {
+      top: 98px;
+      left: -80px;
+    }
+    .about_txt_2 h1 {
+      font-size: 14px;
+    }
+    .line_2 {
+      width: 264px;
+      height: 0.65px;
+      top: -4px;
+    }
+    .about_skills {
+      top: 125px;
+      left: -90px;
+    }
+    .html {
+      display: none;
+    }
+    .css {
+      display: none;
+    }
+    .js {
+      display: none;
+    }
+    .dj {
+      display: none;
+    }
+    .git {
+      display: none;
+    }
+    /* Portfolio */
+    .grid_container {
+      grid-template-columns: repeat(1, 1fr);
+      top: 505px;
+      left: 625px;
+      grid-gap: 32px;
+    }
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width: 321px) and (max-width: 480px) {
     /* Стили для маленьких смартфонов и планшетов */
+
+    /* home */
     .home_imgs.clicked {
       display: none;
     }
     .home_imgs {
       display: none;
     }
+    .logo {
+      width: 255px;
+      height: 255px;
+
+      top: -200px;
+
+      background-size: cover;
+    }
+    .txt {
+      position: relative;
+      top: 292px;
+      left: -45px;
+    }
+    .main_buttons {
+      left: -214px;
+      top: 300px;
+    }
+    .join {
+      right: auto;
+      top: 368px;
+      left: 40px;
+    }
+    .hamburger .line {
+      left: -30px;
+    }
+    /* about */
+    .about.clicked {
+      background: none;
+
+      top: -111px;
+      left: 98px;
+    }
+    .about {
+      background: none;
+
+      top: -111px;
+      left: 98px;
+    }
+    .about_logo {
+      width: 115px;
+      height: 115px;
+
+      left: 46px;
+    }
+    .about_txt {
+      top: 205px;
+      left: -40px;
+    }
+    .about_txt h1 {
+      position: relative;
+      font-size: 14px;
+      left: -40px;
+    }
+    .line_1 {
+      top: -7.8px;
+      left: 70px;
+      width: 143px;
+    }
+    .about_me_txt_en {
+      display: none;
+    }
+    .about_me_txt_en_mobile {
+      top: 81px;
+      left: -79px;
+
+      font-size: 10px;
+    }
+    .about_txt_2 {
+      top: 98px;
+      left: -80px;
+    }
+    .about_txt_2 h1 {
+      font-size: 14px;
+    }
+    .line_2 {
+      width: 264px;
+      height: 0.65px;
+      top: -4px;
+    }
+    .about_skills {
+      top: 125px;
+      left: -90px;
+    }
+    .html {
+      display: none;
+    }
+    .css {
+      display: none;
+    }
+    .js {
+      display: none;
+    }
+    .dj {
+      display: none;
+    }
+    .git {
+      display: none;
+    }
+    /* Portfolio */
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+      top: 505px;
+      left: 625px;
+      grid-gap: 32px;
+    }
+    .grid-item {
+      width: 261px;
+      height: 144px;
+    }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 481px) and (max-width: 768px) {
     /* Стили для средних планшетов и некоторых смартфонов */
+
+    /* home */
     .home_imgs.clicked {
       display: none;
     }
     .home_imgs {
       display: none;
+    }
+    .logo {
+      width: 255px;
+      height: 255px;
+
+      top: -200px;
+      left: 100px;
+
+      background-size: cover;
+    }
+    .txt {
+      position: relative;
+      top: 292px;
+      left: -45px;
+    }
+    .main_buttons {
+      left: -154px;
+      top: 300px;
+    }
+    .join {
+      right: auto;
+      top: 368px;
+      left: 101px;
+    }
+    .hamburger .line {
+      left: -30px;
+    }
+    /* about */
+    .about.clicked {
+      background: none;
+
+      top: -111px;
+      left: 98px;
+    }
+    .about {
+      background: none;
+
+      top: -111px;
+      left: 98px;
+    }
+    .about_logo {
+      width: 115px;
+      height: 115px;
+
+      left: 46px;
+    }
+    .about_txt {
+      top: 205px;
+      left: -40px;
+    }
+    .about_txt h1 {
+      position: relative;
+      font-size: 14px;
+      left: -40px;
+    }
+    .line_1 {
+      top: -7.8px;
+      left: 70px;
+      width: 143px;
+    }
+    .about_me_txt_en {
+      display: none;
+    }
+    .about_me_txt_en_mobile {
+      top: 81px;
+      left: -79px;
+
+      font-size: 10px;
+    }
+    .about_txt_2 {
+      top: 98px;
+      left: -80px;
+    }
+    .about_txt_2 h1 {
+      font-size: 14px;
+    }
+    .line_2 {
+      width: 264px;
+      height: 0.65px;
+      top: -4px;
+    }
+    .about_skills {
+      top: 125px;
+      left: -90px;
+    }
+    .html {
+      display: none;
+    }
+    .css {
+      display: none;
+    }
+    .js {
+      display: none;
+    }
+    .dj {
+      display: none;
+    }
+    .git {
+      display: none;
+    }
+    /* Portfolio */
+    .grid_container {
+      grid-template-columns: repeat(1, 1fr);
+      top: 505px;
+      left: 625px;
+      grid-gap: 32px;
     }
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (min-width: 769px) and (max-width: 900px) {
+    /* home */
     .home_imgs.clicked {
       display: none;
     }
     .home_imgs {
+      display: none;
+    }
+    .logo {
+      width: 255px;
+      height: 255px;
+
+      top: -200px;
+      left: 100px;
+
+      background-size: cover;
+    }
+    .txt {
+      position: relative;
+      top: 292px;
+      left: -45px;
+    }
+    .main_buttons {
+      left: -154px;
+      top: 300px;
+    }
+    .join {
+      right: auto;
+      top: 368px;
+      left: 101px;
+    }
+    .hamburger .line {
+      left: -30px;
+    }
+    /* about */
+    .about.clicked {
+      background: none;
+
+      top: -111px;
+      left: 98px;
+    }
+    .about {
+      background: none;
+
+      top: -111px;
+      left: 98px;
+    }
+    .about_logo {
+      width: 115px;
+      height: 115px;
+
+      left: 46px;
+    }
+    .about_txt {
+      top: 205px;
+      left: -40px;
+    }
+    .about_txt h1 {
+      position: relative;
+      font-size: 14px;
+      left: -40px;
+    }
+    .line_1 {
+      top: -7.8px;
+      left: 70px;
+      width: 143px;
+    }
+    .about_me_txt_en {
+      display: none;
+    }
+    .about_me_txt_en_mobile {
+      top: 81px;
+      left: -79px;
+
+      font-size: 10px;
+    }
+    .about_txt_2 {
+      top: 98px;
+      left: -80px;
+    }
+    .about_txt_2 h1 {
+      font-size: 14px;
+    }
+    .line_2 {
+      width: 264px;
+      height: 0.65px;
+      top: -4px;
+    }
+    .about_skills {
+      top: 125px;
+      left: -90px;
+    }
+    .html {
+      display: none;
+    }
+    .css {
+      display: none;
+    }
+    .js {
+      display: none;
+    }
+    .dj {
+      display: none;
+    }
+    .git {
       display: none;
     }
   }
   
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 901px) and (max-width: 1024px) {
     /* Стили для планшетов и некоторых небольших ноутбуков */
     .nav_bar ul li button {
         font-size: 20px;
@@ -47,9 +473,27 @@
     .portfolio.clicked {
         left: 920px;
     }
+    .about_me_txt_en_mobile {
+      display: none;
+    }
+    .html_mobile {
+      display: none;
+    }
+    .css_mobile {
+      display: none;
+    }
+    .js_mobile {
+      display: none;
+    }
+    .dj_mobile {
+      display: none;
+    }
+    .git_mobile {
+      display: none;
+    }
   }
   
-  @media screen and (max-width: 1280px) {
+  @media screen and (min-width: 1025px) and (max-width: 1280px) {
     /* Стили для большинства современных ноутбуков и некоторых планшетов */
     .nav_bar ul li button {
         font-size: 20px;
@@ -59,6 +503,24 @@
     }
     .portfolio.clicked {
         left: 920px;
+    }
+    .about_me_txt_en_mobile {
+      display: none;
+    }
+    .html_mobile {
+      display: none;
+    }
+    .css_mobile {
+      display: none;
+    }
+    .js_mobile {
+      display: none;
+    }
+    .dj_mobile {
+      display: none;
+    }
+    .git_mobile {
+      display: none;
     }
   }
   
@@ -73,6 +535,24 @@
     .portfolio.clicked {
         left: 930px;
     }
+    .about_me_txt_en_mobile {
+      display: none;
+    }
+    .html_mobile {
+      display: none;
+    }
+    .css_mobile {
+      display: none;
+    }
+    .js_mobile {
+      display: none;
+    }
+    .dj_mobile {
+      display: none;
+    }
+    .git_mobile {
+      display: none;
+    }
   }
   
   @media screen and (min-width: 1441px) and (max-width: 1920px) {
@@ -85,5 +565,23 @@
     }
     .portfolio.clicked {
         left: 950px;
+    }
+    .about_me_txt_en_mobile {
+      display: none;
+    }
+    .html_mobile {
+      display: none;
+    }
+    .css_mobile {
+      display: none;
+    }
+    .js_mobile {
+      display: none;
+    }
+    .dj_mobile {
+      display: none;
+    }
+    .git_mobile {
+      display: none;
     }
   }
