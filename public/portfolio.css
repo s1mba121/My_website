@@ -61,7 +61,7 @@
     grid-template-columns: repeat(3, 1fr); /* Создаем 3 колонки равной ширины */
     grid-gap: 67px; /* Промежуток между элементами */
 
-    top: 30px;
+    top: 120px;
 }
   
 .grid-item {
