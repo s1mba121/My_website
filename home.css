@@ -106,10 +106,10 @@ aside svg {
     width: 228px;
     height: 40px;
 
-    left: 49px;
-    top: 184px;
+    left: 77px;
+    top: 191px;
 }
-.main_buttons button {
+.main_buttons a {
     width: 40px;
     height: 40px;
 
@@ -120,6 +120,16 @@ aside svg {
     margin-right: 17px;
 
     cursor: pointer;
+}
+.main_buttons a svg {
+    position: relative;
+    left: -1px;
+    top: -1px;
+}
+.google img {
+    position: relative;
+    left: 4.203px;
+    top: 4.8px;
 }
 .join {
     width: 211px;
@@ -137,6 +147,19 @@ aside svg {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
+    color: #F24B4B;
+    font-family: Hahmlet;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.2px;
+
+    text-decoration: none;
+
+    padding-left: 40px;
+    padding-top: 10px;
 }
 .join h1 {
     color: #F24B4B;

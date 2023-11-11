@@ -585,3 +585,33 @@
       display: none;
     }
   }
+  @media screen and (min-width: 1921px) and (max-width: 2560px) {
+    /* Стили для больших ноутбуков и мониторов */
+    .nav_bar ul li button {
+        font-size: 20px;
+    }
+    .home_imgs.clicked  {
+        margin-left: 1250px;
+    }
+    .portfolio.clicked {
+        left: 950px;
+    }
+    .about_me_txt_en_mobile {
+      display: none;
+    }
+    .html_mobile {
+      display: none;
+    }
+    .css_mobile {
+      display: none;
+    }
+    .js_mobile {
+      display: none;
+    }
+    .dj_mobile {
+      display: none;
+    }
+    .git_mobile {
+      display: none;
+    }
+  }
